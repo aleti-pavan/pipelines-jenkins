@@ -1,17 +1,17 @@
 pipeline {
     agent any
     stages {
-        stage ("first") {
+        stage (first) {
             steps{
                 sh 'This is first stage '
             }
         }
-        stage ("second"){
+        stage ('second'){
             steps{
                 sh 'This is second stage'
             }
         }
-        stage("Third"){
+        stage('Third'){
             steps{
                 sh "This is third stage"
             }
