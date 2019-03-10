@@ -11,5 +11,10 @@ pipeline {
                 sh 'This is second stage'
             }
         }
+        stage("Third"){
+            steps{
+                sh "This is third stage"
+            }
+        }
     }
 }
