@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Third'){
             steps{
-                sh "This is third stage"
+                sh 'This is third stage'
             }
         }
     }
